@@ -25,5 +25,5 @@ Para conceder ao usuário um feedback da situação, implementei uma lógica em 
 
 ##Demonstração
 
-![Demonstração](./assets/GeradorDeQRCode.gif)
+![Demonstração](.assets/GeradorDeQRCode.gif)
 
