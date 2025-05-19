@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+/* Removendo as margens e bordas indesejadas */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Helvetica;
+}
+
+/* Posicionamento e design */
+html,body{
+    min-height:100%;
+}
+
+body{
+    background-color:rgb(23, 194, 194);
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:200px;
+    margin-left:33%;
+    background-color:white;
+    padding:20px 50px;
+    max-width:600px;
+    border-radius:10px;
+}
+
+.container h1{
+    margin-bottom:15px;
+}
+
+.forms label{
+    font-size:20px;
+}
+
+.label-div{
+    margin-bottom:20px;
+}
+
+.forms input{
+    width:450px;
+    margin-bottom:20px;
+    padding:18px;
+    border:2px solid rgb(156, 154, 154);
+    border-radius:6px;
+    transition:0.25s;
+}
+
+.forms input:hover{
+    background-color:rgb(231, 231, 231);
+}
+
+.forms input::placeholder{
+    font-size:15px;
+    color:black;
+    opacity:0.6;
+}
+
+/* Botão de gerar qrcode */
+.forms .btn{
+    background-color:green;
+    font-size:25px;
+    text-transform:uppercase;
+    color:rgb(226, 226, 226);
+    transition:0.4s;
+}
+
+
+/* Efeito ao interagir com o botão */
+.forms .btn:hover{
+    transform:scale(1.02);
+    background-color:rgb(4, 112, 4);
+    color:white;
+    cursor:pointer;
+}
+
+/* Bloco para envolver o qrcode */
+.qrcode-div {
+    display: none;
+    opacity: 0;
+    justify-content: center;
+    border: 1px solid #adabab;
+    padding: 40px;
+    width: 450px;
+    max-width: 450px;
+    border-radius: 6px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Classe para mostrar o qrcode gerado,juntamente com JavaScript */
+.container.active .qrcode-div{
+    display:flex;
+    opacity:1;
+}
+
+
+/* Responsividade */
+@media (max-width:1178px){
+    .container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:200px;
+    margin-left:20%;
+    background-color:white;
+    padding:20px 50px;
+    max-width:600px;
+    border-radius:10px;
+}
+}
+
+@media (max-width:920px){
+    .container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:200px;
+    margin-left:16%;
+    background-color:white;
+    padding:20px 50px;
+    max-width:600px;
+    border-radius:10px;
+}
+}
+
+@media (max-width:810px){
+    .container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:200px;
+    margin-left:12%;
+    background-color:white;
+    padding:20px 50px;
+    max-width:600px;
+    border-radius:10px;
+}
+}
+
+@media (max-width:690px){
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:justify;
+    flex-direction:column;
+    margin-top:200px;
+    margin-left:20%;
+    background-color:white;
+    padding:20px 50px;
+    max-width:300px;
+    border-radius:10px;
+}
+
+
+.qrcode-div {
+    display: none;
+    opacity: 0;
+    justify-content: center;
+    border: 1px solid #adabab;
+    padding: 40px;
+    width: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.forms input{
+    min-width:200px;
+    margin-bottom:20px;
+    padding:18px;
+    border:2px solid rgb(156, 154, 154);
+    border-radius:6px;
+    transition:0.25s;
+}
+
+.form-container{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+}
+
+.forms input{
+    max-width:150px;
+    margin-bottom:20px;
+    padding:18px;
+    border:2px solid rgb(156, 154, 154);
+    border-radius:6px;
+    transition:0.25s;
+}
+
+.forms .btn{
+    background-color:green;
+    font-size:20px;
+    max-width:150px;
+    text-transform:uppercase;
+    color:rgb(226, 226, 226);
+    transition:0.4s;
+}
+}
+
+@media (max-width:420px){
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:justify;
+    flex-direction:column;
+    margin-top:200px;
+    margin-left:10%;
+    background-color:white;
+    padding:20px 50px;
+    max-width:300px;
+    border-radius:10px;
+}
+
+
+
+
+.form-container{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+}
+
+.forms input{
+    max-width:150px;
+    margin-bottom:20px;
+    padding:18px;
+    border:2px solid rgb(156, 154, 154);
+    border-radius:6px;
+    transition:0.25s;
+}
+
+.forms .btn{
+    background-color:green;
+    font-size:20px;
+    max-width:150px;
+    text-transform:uppercase;
+    color:rgb(226, 226, 226);
+    transition:0.4s;
+}
+}
+
+
+
+
