@@ -23,7 +23,7 @@ ajustar as dimensões e o posicionamento dos elementos de forma responsiva.
 
 Para conceder ao usuário um feedback da situação, implementei uma lógica em JavaScript responsável pela alteração do texto do botão "Gerar" para "Gerando...",informando que o gerador está processando e não houve nenhum erro.
 
-##Demonstração
+##Demonstração ![Demonstração](assets/GeradorDeQRCode.gif)
 
-![Demonstração](assets/GeradorDeQRCode.gif)
+
 
