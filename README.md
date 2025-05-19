@@ -27,4 +27,3 @@ Para conceder ao usuário um feedback da situação, implementei uma lógica em 
 
 ![Demonstração](./assets/GeradorDeQRCode.gif)
 
-
