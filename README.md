@@ -4,7 +4,7 @@ Projeto com o intuito de continuar e consolidar o aprendizado de HTML, CSS, Java
 
 Para utilizar o gerador, o usuário deve digitar no campo um link ou um texto qualquer,gerando a partir daí um QR Code.
 
-Dentre os principais desafios do projeto estão:
+## Principais desafios:
 
 -Entender e efetivar o uso de APIs com JavaScript
 -Ajustar a dimensão e posicionamento dos elementos,de forma responsiva
