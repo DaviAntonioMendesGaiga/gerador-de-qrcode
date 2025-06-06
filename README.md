@@ -26,5 +26,8 @@ Para conceder ao usuário um feedback da situação, implementei uma lógica em 
 ## Demonstração: 
 ![Demonstração](assets/GeradorDeQRCode.gif)
 
+## Acesse o projeto online:
+
+[Clique aqui para gerar seu QR Code](https://gerador-de-qrcode-gamma.vercel.app/)
 
 
